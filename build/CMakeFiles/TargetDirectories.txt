@@ -1,3 +1,0 @@
-/Users/rcastro/Documents/CarND/P8-CarND-PID-Control-Project-master/build/CMakeFiles/rebuild_cache.dir
-/Users/rcastro/Documents/CarND/P8-CarND-PID-Control-Project-master/build/CMakeFiles/edit_cache.dir
-/Users/rcastro/Documents/CarND/P8-CarND-PID-Control-Project-master/build/CMakeFiles/pid.dir
