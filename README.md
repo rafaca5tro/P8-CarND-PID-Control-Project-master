@@ -93,6 +93,15 @@ that's just a guess.
 One last note here: regardless of the IDE used, every submitted project must
 still be compilable with cmake and make./
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+## Rubric
+1. Code compiles correctly [Backend](videos/0-backendCalc.mov)
+2. Implementation, PID procedure working as expected following lessons, succesfully applied the concepts seen in python now in C++
+   a. **Proportion (P):** Attempt to steer the car to the center line (against the CTE), affects overshooting and without P it goes easily out of the road.[withoutP](videos/1-withoutP.mp4)
+   b. **Integral (I):** Attempt to optimize the procedure eliminating potential bias on the controller (affecting directly the error), did not affect our simulation since there's no bias in the sim. [PD](videos/3-PDimplementation.mp4) 
+   c. **Differential (D):** It aims at flattening the error trajectory into a horizontal line, damping the force applied, and so reduces overshoot. Without D, the output is an oscillation around the set point. [withoutD](videos/2-withoutD.mp4)
+
+3. Final hyperparameters P,I,D coefficients were adjusted manually (main.cpp line 39), were initiated with 0 the car should drive straight.
+4. Simulation. [Final Implementation](videos/4-finalPIDimplementation.mp4)
+
+
 
